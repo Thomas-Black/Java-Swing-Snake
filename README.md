@@ -1,25 +1,32 @@
 # Java-Swing-SnakeGame
 ---
-## Content Introduction :
-This project is a small game based on the relevant functions of JavaSwing. Simple operation, rich content, including scoring function.
+## 内容介绍 :
+该项目是基于JavaSwing的相关功能实现的一个贪吃蛇小游戏。游戏开始后，在屏幕上会随机出现一个食物和炸弹，然后玩家可以通过键盘控制小蛇的移动，对蛇吃到食物还设计了计分功能。
 
-## Operation Introduction ：
-1. After entering the game, press the space bar on the keyboard to start the game.
+## 游戏操作和规则介绍 ：
+1. 程序运行后，按下空格键开始游戏。
 
-2. Control the movement of the snake through the four direction keys on the keyboard.
+2. 进入游戏后，小蛇会默认朝右方向自动移动，玩家可通过键盘的方向键来改变小蛇的移动方向。
 
-3. After the game fails, you can press the space bar to restart the game.
+3. 游戏运行期间可以按空格键暂停游戏，再按下空格键返回游戏。
 
-## Remarks ：
-The picture materials in the project need to be downloaded manually and placed in the SRC directory. 
+4.游戏设置了计分和小蛇的长度的功能，小蛇初始长度为3。吃到食物时，小蛇的长度和分数以及小蛇的移动速度都会增加；当小蛇吃到炸弹时，小蛇的长度、分数以及速度都会减少。
 
-The name of the file where the pictures are stored is images.
+5.当游戏的分数为负数时，游戏会失败，按下空格键可重新开始游戏。
 
->Images Download Address : https://www.aliyundrive.com/s/u7HsgQR16TV
 
->Code Explanation Document : 
+## 备注 ：
+项目中的图片素材需要手动下载，并放到Src目录下，与com目录同级。
+
+图片素材的目录名为：images
+
+>图片下载地址 : https://www.aliyundrive.com/s/u7HsgQR16TV
+
+>过程性文档 : 
 https://docs.qq.com/doc/DQnF3RGJnRkJGTmhJ
 
->Email : 947298344@qq.com
+>项目来源 ：http://t.csdn.cn/LoKU9
+
+>邮箱 : 947298344@qq.com
 
 ---
